@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="stylehotel.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel-G.H.M.</title>
+</head>
+<body>
+    <input id="searchbar" onkeyup="filtrarPrecio()"
+    name="price" placeholder="Buscar por precio..">
+    <header>
+            <div class="texto-principal">
+                <a href="../index.html" class="texto-p">Gran Hogar Mendoza</a>
+                <div class="otros">
+                    <a href=""class="texto-barra"><b>Contactanos</b></a>
+                    <a href=""class="texto-barra"><b>Nosotros</b></a>
+                    <a href=""><img src="../facebook.png" width="30px" height="30px"></a>
+                    <a href=""><img src="../twitter.png" width="30px" height="30px"></a>
+                    <a href=""><img src="../instagram.png" width="30px" height="30px"></a>
+                </div>
+            </div>
+    </header>
+    <main>
+        <div class="tarjetas">
+            <div class="tarjeta1">
+                <div class="tarjeta1-info">
+                        <a href="" class="tarjeta1-a">
+                            <h2 class="tarjeta-texto">Cuarto de Hotel en Maipu</h2>
+                        </a>
+                    </div>
+                    <div class="tarjeta1-imagen">
+                        <a href=""><img src="hotel1.jpg"></a>
+                        <p class="tarjeta1-p">Precio: $40.000</p>
+                        <p class="tarjeta1-p">Hotel: Paradise Resort Tipo de habitación: Suite Junior</p>
+                        <p class="tarjeta1-p">servicios de lujo, como acceso a la piscina, desayuno buffet y servicio de habitaciones las 24 horas.</p>
+                        <p class="tarjeta1-p"><b>Amplia suite con cama king-size, área de estar, baño privado y balcón con vista al océano.</b></p>
+                    </div>
+            </div>
+            <div class="tarjeta2">
+                <div class="tarjeta2-info">
+                        <a href="" class="tarjeta2-a">
+                            <h2 class="tarjeta-texto">Cuarto de Hotel en Maipu</h2>
+                        </a>
+                    </div>
+                    <div class="tarjeta2-imagen">
+                        <a href=""><img src="hotel2.jpg"></a>
+                        <p class="tarjeta2-p">Precio: $15.000</p>
+                        <p class="tarjeta2-p">Hotel: City View Hotel. Tipo de habitación: Habitación Deluxe</p>
+                        <p class="tarjeta2-p"> Incluye acceso gratuito al gimnasio y desayuno continental. </p>
+                        <p class="tarjeta2-p"><b>Habitación elegante y moderna con cama queen-size, escritorio, baño privado y ventana con vistas panorámicas a la ciudad.</b></p>
+                    </div>
+            </div> 
+            <div class="tarjeta3">
+                <div class="tarjeta3-info">
+                        <a href="" class="tarjeta3-a">
+                            <h2 class="tarjeta-texto">Cuarto de Hotel en Godoy Cruz</h2>
+                        </a>
+                    </div>
+                    <div class="tarjeta3-imagen">
+                        <a href=""><img src="hotel3.jpg"></a>
+                        <p class="tarjeta3-p">Precio: $43.000</p>
+                        <p class="tarjeta3-p">Hotel: Mountain Lodge. Tipo de habitación: Habitación Deluxe</p>
+                        <p class="tarjeta3-p">Ideal para familias o grupos que buscan una experiencia de montaña relajante.  </p>
+                        <p class="tarjeta3-p"><b>Acogedora cabaña de madera con dos dormitorios, sala de estar con chimenea, cocina equipada y terraza privada con vistas a las montañas.</b></p>
+                    </div>
+            </div> 
+            <div class="tarjeta4">
+                <div class="tarjeta4-info">
+                        <a href="" class="tarjeta4-a">
+                            <h2 class="tarjeta-texto">Cuarto de Hotel en Lujan de Cuyo</h2>
+                        </a>
+                    </div>
+                    <div class="tarjeta4-imagen">
+                        <a href=""><img src="hotel4.jpg"></a>
+                        <p class="tarjeta4-p">Precio: $27.000</p>
+                        <p class="tarjeta4-p">Hotel: Beachfront Resort. Tipo de habitación: Bungalow frente al mar</p>
+                        <p class="tarjeta4-p">Bungalow encantador ubicado directamente en la playa, con una habitación, sala de estar, baño privado y patio con acceso directo a la arena. </p>
+                        <p class="tarjeta4-p"><b>Disfruta de la brisa marina y las impresionantes vistas al mar desde la comodidad de tu propia habitación.</b></p>
+                    </div>
+            </div> 
+        </div>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-message">Gran Hogar Mendoza - Tu socio confiable en el mercado inmobiliario. © | <b>contacto@granhogarmendoza.com</b></div>
+                <div class="footer-social">
+                    <a href="" class="social-media"><img src="facebook.png" alt="Facebook" width="30px" height="30px"></a>
+                    <a href="" class="social-media"><img src="twitter.png" alt="Twitter" width="30px" height="30px"></a>
+                    <a href="" class="social-media"><img src="instagram.png" alt="Instagram" width="30px" height="30px"></a>
+                </div>
+            </div>
+        </footer>
+        <div class="container">
+            <div class="section">
+                <button class ="btn" id="btndepa">Datos</button>
+            </div>
+        <script src ="ajaxhotel.js"></script>
+        <div class="section" id="respuesta"></div>
+    </main>
+</body>

@@ -1,0 +1,26 @@
+[
+    {
+        "superficie": 80,
+        "ubicacion": "Centro",
+        "precio": 150000,
+        "ambiente": 3
+    },
+    {
+        "superficie": 100,
+        "ubicacion": "Barrio",
+        "precio": 200000,
+        "ambiente": 4
+    },
+    {
+        "superficie": 60,
+        "ubicacion": "Suburbio",
+        "precio": 120000,
+        "ambiente": 2
+    },
+    {
+        "superficie": 120,
+        "ubicacion": "Rural",
+        "precio": 180000,
+        "ambiente": 5
+    }
+]

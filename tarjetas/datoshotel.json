@@ -1,0 +1,31 @@
+[
+    {
+        "img" : "hotel1.jpg",
+      "capacidad": "Para 2 personas",
+      "ubicacion": "Hotel: Paradise Resort Tipo de habitación: Suite Junior",
+      "precio": 40000,
+      "servicio": "Incluye servicios de lujo, como acceso a la piscina, desayuno buffet y servicio de habitaciones las 24 horas."
+    },
+    {
+        "img" : "hotel2.jpg",
+      "capacidad": "Para 1 persona",
+      "ubicacion": "Hotel: City View Hotel. Tipo de habitación: Habitación Deluxe",
+      "precio": 15000,
+      "servicio": "Incluye acceso gratuito al gimnasio y desayuno continental."
+    },
+    {
+        "img" : "hotel3.jpg",
+      "capacidad": "Capacidad: Para 4 personas",
+      "ubicacion": "Hotel: Mountain Lodge. Tipo de habitación: Habitación Deluxe",
+      "precio": 43000,
+      "servicio": "Ideal para familias o grupos que buscan una experiencia de montaña relajante."
+    },
+    {
+        "img" : "hotel4.jpg",
+      "capacidad": "Para 3 personas",
+      "ubicacion": "Hotel: Beachfront Resort. Tipo de habitación: Bungalow frente al mar",
+      "precio": 27000,
+      "servicio": "Bungalow encantador ubicado directamente en la playa, con una habitación, sala de estar, baño privado y patio con acceso directo a la arena."
+    }
+  ]
+  

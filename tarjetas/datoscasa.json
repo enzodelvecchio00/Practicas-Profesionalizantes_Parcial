@@ -1,0 +1,31 @@
+[
+    {
+        "img" : "casa1.jpg",
+      "superficie": "200 m²",
+      "ubicacion": "Maipu, Avenida Libertad 123, Ciudad Jardín",
+      "precio": 400000,
+      "ambiente": "7. amplios espacios con salón de estar, comedor formal, cocina equipada, cinco dormitorios,suite principal con baño privado, cuatro baños completos, lavadero y garaje."
+    },
+    {
+        "img" : "casa2.jpg",
+      "superficie": "150 m²",
+      "ubicacion": "Godoy cruz, Calle Primavera 456, Villa Serena.",
+      "precio": 350000,
+      "ambiente": "14. amplios espacios con salón de estar, comedor formal, cocina equipada, cinco dormitorios,suite principal con baño privado, cuatro baños completos, lavadero y garaje."
+    },
+    {
+        "img" : "casa3.jpg",
+      "superficie": "180 m²",
+      "ubicacion": "Godoy cruz, Avenida del Sol 789, Residencial Delicias",
+      "precio": 290000,
+      "ambiente": "10. Amplia casa de cuatro dormitorios, tres baños, cocina moderna, sala de estar y comedor independiente."
+    },
+    {
+        "img" : "casa4.jpg",
+      "superficie": "220 m²",
+      "ubicacion": "Lujan de cuyo, Calle Roble 234, Urbanización El Bosque",
+      "precio": 420000,
+      "ambiente": "12. Casa contemporánea con cinco dormitorios, cuatro baños, sala de estar con chimenea, comedor formal y cocina actualizada."
+    }
+  ]
+  

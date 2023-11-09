@@ -1,0 +1,237 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.header{
+    display: flex;
+    height: 68px;
+
+}
+.texto-principal{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(10, 10, 10, 0.623);
+}
+.texto-p{
+    margin-left: 30px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    color: rgb(248, 248, 248);
+    font-size: 40px;
+    text-decoration: none;
+}
+.texto-p:hover{
+    color: #f0f0da;
+    transition: all .3s;
+}
+.otros{
+    display: flex;
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    margin-right: 50px;
+}
+.otros a {
+    color: inherit;
+    text-decoration: none;
+    margin-left: 55px;
+    margin-top: 15px;
+    font-size: 22px;
+}
+.otros img{
+    margin-right: -20px;
+    margin-left: -10px;
+}
+
+                        /*TODO ESTO ES DEL HEADER*/
+.tarjetas a{
+    color: inherit;
+    text-decoration: none;
+}
+.tarjetas{
+    display: block;
+    background-color: rgb(226, 236, 200);
+    width: auto;
+    height: 1108px;
+}
+.tarjeta1{
+    display: block;
+    height: 277px;
+    background-color: rgb(238, 234, 215);
+    color: rgb(14, 14, 14);
+}
+.tarjeta1-imagen{
+    background-color: rgb(238, 234, 215);
+}
+.tarjeta1-info{
+    background-color: rgb(185, 190, 167);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tarjeta1-info:hover{
+    background-color: rgb(214, 221, 192);
+    transition: all .3s;
+}
+.tarjeta1-a{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.tarjeta1 p{
+    margin-left: 265px;
+    font-size: 20px;
+    margin-top: -80px;
+}
+.tarjeta1-imagen img{
+    width: 230px;
+    height: 230px;
+}
+.tarjeta2{
+    display: block;
+    height: 277px;
+    background-color: rgb(238, 234, 215);
+    color: rgb(14, 14, 14);
+}
+.tarjeta2-imagen{
+    background-color: rgb(238, 234, 215);
+}
+.tarjeta2-info{
+    background-color: rgb(185, 190, 167);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tarjeta2-info:hover{
+    background-color: rgb(214, 221, 192);
+    transition: all .3s;
+}
+.tarjeta2-a{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.tarjeta2 p{
+    margin-left: 265px;
+    font-size: 20px;
+    margin-top: -75px;
+}
+.tarjeta2-imagen img{
+    width: 230px;
+    height: 230px;
+}
+.tarjeta3{
+    display: block;
+    height: 277px;
+    background-color: rgb(238, 234, 215);
+    color: rgb(14, 14, 14);
+}
+.tarjeta3-imagen{
+    background-color: rgb(238, 234, 215);
+}
+.tarjeta3-info{
+    background-color: rgb(185, 190, 167);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tarjeta3-info:hover{
+    background-color: rgb(214, 221, 192);
+    transition: all .3s;
+}
+.tarjeta3-a{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.tarjeta3 p{
+    margin-left: 265px;
+    font-size: 20px;
+    margin-top: -75px;
+}
+.tarjeta3-imagen img{
+    width: 230px;
+    height: 230px;
+}
+.tarjeta4{
+    display: block;
+    height: 277px;
+    background-color: rgb(238, 234, 215);
+    color: rgb(14, 14, 14);
+}
+.tarjeta4-imagen{
+    background-color: rgb(238, 234, 215);
+}
+.tarjeta4-info{
+    background-color: rgb(185, 190, 167);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tarjeta4-info:hover{
+    background-color: rgb(214, 221, 192);
+    transition: all .3s;
+}
+.tarjeta4-a{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.tarjeta4 p{
+    margin-left: 265px;
+    font-size: 20px;
+    margin-top: -75px;
+}
+.tarjeta4-imagen img{
+    width: 230px;
+    height: 230px;
+}
+.footer {
+    background-color: #3d423c;
+    padding: 10px;
+    margin-top: 50px;
+}
+.footer-container {
+    display: flex;
+    color: #dedfc5;
+    font-size: 14px;
+    margin-bottom: 50px;
+    background-color: #3d423c;
+}
+  
+.footer-message {
+    background-color: #3d423c;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+.footer-social{
+    margin-left: 24%;
+}
+.footer-social img{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+/*CSS BOTON DATOS*/
+.btn {
+  background-color: #4c7eea;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  width: 120px;
+  line-height: 20px;
+  list-style: none;
+  margin: 40px;
+  outline: none;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.btn:hover{
+  background-color: #8393eb;
+}

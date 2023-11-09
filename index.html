@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gran Hogar Mendoza</title>
+</head>
+<body>
+    <header class="barra-enc">
+        <div class="barra">
+            <h1 class="texto-principal">Gran Hogar Mendoza</h1>
+            <div class="secundarios">
+                <a href="" class="secundarios-a1"><b>Contactanos</b></a>
+                <a href="" class="secundarios-a2"><b>Nosotros</b></a>
+                <a href=""><img src="facebook.png" width="30px" height="30px"></a>
+                <a href=""><img src="twitter.png" width="30px" height="30px"></a>
+                <a href=""><img src="instagram.png" width="30px" height="30px"></a>
+            </div>
+        </div>
+    </header>
+    <main class="mid">
+        <div class="separador">
+            <h2>TU HOGAR IDEAL, CON NOSOTROS!</h2>
+        </div>
+        <div class="medio">
+            <a href="tarjetas/index-departamentos.html" class="tarjeta1">
+            <h2 class="tarjeta-texto">Departamentos</h2>
+            </a>
+            <a href="tarjetas/index-casas.html" class="tarjeta2">
+                <h2 class="tarjeta-texto">Casas</h2>
+            </a>
+            <a href="tarjetas/index-hotel.html"  class="tarjeta3">
+                <h2 class="tarjeta-texto">Habitacion de hotel</h2>
+            </a>
+        </div>
+        <div class="blog-informativo">
+            <div class="blog-bloque">
+                <h2>Gran Hogar Mendoza</h2>
+                <p>En este espacio, te brindaremos toda la información que necesitas sobre nuestra reconocida inmobiliaria. Permítenos guiarte a través de un recorrido por nuestra sede, la historia que nos respalda y mucho más.</p>
+            </div>
+            <div class="blog-historia">
+                <h2>Nuestra historia</h2>
+                <p>Fundada en 2002, Gran Hogar Mendoza ha estado presente en el mercado inmobiliario durante más de 21 años. Durante este tiempo, nos hemos consolidado como una empresa líder en el sector, brindando servicios de alta calidad y cumpliendo los sueños de numerosas personas que han encontrado su hogar ideal con nosotros.</p>
+            </div>
+            <div class="blog-sede">
+                <h2>Donde estamos!</h2>
+                <p>Nuestra sede está ubicada en el corazón de Mendoza, Argentina. <b>visitanos en Av. San Martín 1468</b> para disfrutar de un ambiente acogedor y recibir asesoramiento personalizado.</p>
+            </div>
+            <div class="blog-compromiso">
+                <h2>Nuestro compromiso</h2>
+                <p>Nuestro objetivo es brindarte una experiencia inigualable en la búsqueda de tu propiedad. Contamos con un equipo de profesionales comprometidos en asesorarte y satisfacer tus necesidades. Gran Hogar Mendoza ha sido referente durante más de 20 años. Nos enorgullece haber ayudado a numerosas personas a encontrar su hogar ideal.</p>
+            </div>
+            <div class="blog-invitacion">
+                <h2>¡Sumate!</h2>
+                <p>No importa si eres un comprador primerizo o un inversor experimentado, en Gran Hogar Mendoza encontrarás las mejores opciones a tu alcance. Nuestro compromiso es garantizar tu plena satisfacción y hacer de tu búsqueda una experiencia emocionante y exitosa. ¡Únete a nosotros y encuentra el hogar de tus sueños con Gran Hogar Mendoza! Estamos aquí para hacer realidad tus deseos y ayudarte a construir un futuro próspero en tu nuevo espacio.</p>
+            </div>
+        </div>
+        <h1 class="formulario-text">¡Contactanos!</h1>
+        <form class="formulario">
+            <div class="campo">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" class="nombre" width="10px" name="nombre" id="nombre" placeholder="Ingrese su nombre..">
+            </div>
+            <div class="campo">
+                <label for="telefono">Numero de telefono:</label>
+                <input type="number" class="telefono" name="telefono" id="telefono" placeholder="Ingrese su numero de telefono..">
+            </div>
+            <div class="campo">
+                <label for="mensaje">Mensaje:</label>
+                <textarea class="mensaje" name="mensaje" id="mensaje" placeholder="Ingrese su consulta.."></textarea>
+            </div>
+            <div class="campo">
+                <label for="email">Email:</label>
+                <input type="email" class="email" name="email" id="email" placeholder="Ingrese su email..">
+            </div>
+            <div class="boton">
+                <button type="submit" onclick=enviarformulario() >Enviar</button>
+            </div>
+            <div id='error'></div>
+        </form>
+        <script src ="validacion.js"></script>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-message">Gran Hogar Mendoza - Tu socio confiable en el mercado inmobiliario. © | <b>contacto@granhogarmendoza.com</b></div>
+                <div class="footer-social">
+                    <a href="" class="social-media"><img src="facebook.png" alt="Facebook" width="30px" height="30px"></a>
+                    <a href="" class="social-media"><img src="twitter.png" alt="Twitter" width="30px" height="30px"></a>
+                    <a href="" class="social-media"><img src="instagram.png" alt="Instagram" width="30px" height="30px"></a>
+                </div>
+            </div>
+        </footer>
+        </div>
+    </main>
+</body>
+</html>

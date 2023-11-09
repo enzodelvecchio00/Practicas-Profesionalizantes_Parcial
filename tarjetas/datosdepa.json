@@ -1,0 +1,30 @@
+[
+  {
+    "img" : "depa1.jpg",
+    "superficie": "80 m²",
+    "ubicacion": "Lujan de cuyo, 6º piso, contra frente. A 50 metros de Plaza España.",
+    "precio": 150000,
+    "ambiente": "7. Living comedor; cocina comedor; lavandería; 2 dormitorios con placares; baño completo y baño de visitas."
+  },
+  {
+    "img" : "depa2.jpg",
+    "superficie": "65 m²",
+    "ubicacion": "Maipu, Avenida Libertad 123, Ciudad Capital.",
+    "precio": 200000,
+    "ambiente": "5. Living comedor; cocina comedor; lavandería; 1 dormitorios con placares; baño completo y personal. Balcón, cerámica y juego de Living."
+  },
+  {
+    "img" : "depa3.jpg",
+    "superficie": "90 m²",
+    "ubicacion": "Godoy cruz, Calle Rivadavia 789, Barrio Residencial",
+    "precio": 120000,
+    "ambiente": "7. Dispone de un amplio salón comedor, cocina integrada, tres dormitorios (principal en suite), dos baños completos y balcón terraza con vistas al parque."
+  },
+  {
+    "img" : "depa4.jpg",
+    "superficie": "75 m²",
+    "ubicacion": "Lujan de cuyo, Calle Buenos Aires 321, Barrio Moderno.",
+    "precio": 180000,
+    "ambiente": "6. luminoso salón comedor, cocina abierta totalmente equipada, dos dormitorios amplios con armarios empotrados, un baño completo y un aseo."
+  }
+]

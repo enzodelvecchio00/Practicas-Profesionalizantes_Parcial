@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="stylecasas.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casas-G.H.M.</title>
+</head>
+<body>
+    <input id="searchbar" onkeyup="filtrarPrecio()"
+    name="price" placeholder="Buscar por precio..">
+    <header>
+            <div class="texto-principal">
+                <a href="../index.html" class="texto-p">Gran Hogar Mendoza</a>
+                <div class="otros">
+                    <a href=""class="texto-barra"><b>Contactanos</b></a>
+                    <a href=""class="texto-barra"><b>Nosotros</b></a>
+                    <a href=""><img src="../facebook.png" width="30px" height="30px"></a>
+                    <a href=""><img src="../twitter.png" width="30px" height="30px"></a>
+                    <a href=""><img src="../instagram.png" width="30px" height="30px"></a>
+                </div>
+            </div>
+    </header>
+    <main>
+        <div class="tarjetas">
+            <div class="tarjeta1">
+                <div class="tarjeta1-info">
+                        <a href="" class="tarjeta1-a">
+                            <h2 class="tarjeta-texto">Casa en venta de Maipu</h2>
+                        </a>
+                    </div>
+                    <div class="tarjeta1-imagen">
+                        <a href=""><img src="casa1.jpg"></a>
+                        <p class="tarjeta1-p">Precio: $400.000</p>
+                        <p class="tarjeta1-p">Domicilio: Avenida Libertad 123, Ciudad Jardín</p>
+                        <p class="tarjeta1-p">Consta de: amplios espacios con salón de estar, comedor formal, cocina equipada, cinco dormitorios,suite principal con baño privado, cuatro baños completos, lavadero y garaje.</p>
+                        <p class="tarjeta1-p">Metros cuadrados: 200 m²</p>
+
+                    </div>
+            </div>
+            <div class="tarjeta2">
+                <div class="tarjeta2-info">
+                        <a href="" class="tarjeta2-a">
+                            <h2 class="tarjeta-texto">Casa en venta de Godoy Cruz</h2>
+                        </a>
+                    </div>
+                    <div class="tarjeta2-imagen">
+                        <a href=""><img src="casa2.jpg"></a>
+                        <p class="tarjeta2-p">Precio: $350.000</p>
+                        <p class="tarjeta2-p">Domicilio: Calle Primavera 456, Villa Serena.</p>
+                        <p class="tarjeta2-p">Consta de: casa de estilo colonial con tres dormitorios, dos baños completos, cocina remodelada y patio trasero con jardín. </p>
+                        <p class="tarjeta2-p">MMetros cuadrados: 150 m²</p>
+
+                    </div>
+            </div> 
+            <div class="tarjeta3">
+                <div class="tarjeta3-info">
+                        <a href="" class="tarjeta3-a">
+                            <h2 class="tarjeta-texto">Casa en venta de Godoy Cruz</h2>
+                        </a>
+                    </div>
+                    <div class="tarjeta3-imagen">
+                        <a href=""><img src="casa3.jpg"></a>
+                        <p class="tarjeta3-p">Precio: $290.000</p>
+                        <p class="tarjeta3-p">Domicilio: Avenida del Sol 789, Residencial Delicias</p>
+                        <p class="tarjeta3-p">Consta de: Amplia casa de cuatro dormitorios, tres baños, cocina moderna, sala de estar y comedor independiente.  </p>
+                        <p class="tarjeta3-p">Metros cuadrados: 180 m²</p>
+                    </div>
+            </div> 
+            <div class="tarjeta4">
+                <div class="tarjeta4-info">
+                        <a href="" class="tarjeta4-a">
+                            <h2 class="tarjeta-texto">Casa en venta de Lujan de Cuyo</h2>
+                        </a>
+                    </div>
+                    <div class="tarjeta4-imagen">
+                        <a href=""><img src="casa4.jpg"></a>
+                        <p class="tarjeta4-p">Precio: $420.000</p>
+                        <p class="tarjeta4-p">Domicilio: Calle Roble 234, Urbanización El Bosque</p>
+                        <p class="tarjeta4-p">Consta de:  Casa contemporánea con cinco dormitorios, cuatro baños, sala de estar con chimenea, comedor formal y cocina actualizada.</p>
+                        <p class="tarjeta4-p">Metros cuadrados: 220 m²</p>
+
+                    </div>
+            </div> 
+        </div>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-message">Gran Hogar Mendoza - Tu socio confiable en el mercado inmobiliario. © | <b>contacto@granhogarmendoza.com</b></div>
+                <div class="footer-social">
+                    <a href="" class="social-media"><img src="facebook.png" alt="Facebook" width="30px" height="30px"></a>
+                    <a href="" class="social-media"><img src="twitter.png" alt="Twitter" width="30px" height="30px"></a>
+                    <a href="" class="social-media"><img src="instagram.png" alt="Instagram" width="30px" height="30px"></a>
+                </div>
+            </div>
+        </footer>
+        <div class="container">
+            <div class="section">
+                <button class ="btn" id="btndepa">Datos</button>
+            </div>
+        <script src ="ajaxcasa.js"></script>
+        <div class="section" id="respuesta"></div>
+    </main>
+</body>
